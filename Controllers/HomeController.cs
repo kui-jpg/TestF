@@ -26,5 +26,11 @@ namespace TestF.Controllers
 
             return View();
         }
+
+        public ActionResult TestHtml()
+        {
+            ViewBag.Message = "这里是测试的页面";
+            return View();
+        }
     }
 }
